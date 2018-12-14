@@ -1,3 +1,8 @@
 .headerBar{
-
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: thick double #477F57;
+  border-right: thick double #477F57;
+  padding: 2px;
 }
