@@ -1,8 +1,30 @@
-.headerBar{
-  width: 90%;
+#headerBar{
+  width: 80%;
+  font-size: 18px;
   margin-left: auto;
   margin-right: auto;
-  border-left: thick double #477F57;
-  border-right: thick double #477F57;
-  padding: 2px;
+  border: thick double #477F57;
+}
+#bodyBlock{
+  width: 70%;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  border: thick double #477F57;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+  text-decoration: underline;
+  color: #477F57;
 }
