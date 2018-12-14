@@ -1,16 +1,15 @@
 #headerBar{
   width: 80%;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: auto;
   margin-right: auto;
+  font-family: Trebuchet MS;
   /*border: thick double #477F57;*/
 }
 #bodyBlock{
   width: 70%;
-  font-size: 14px;
   margin-left: auto;
   margin-right: auto;
-  border: thick double #477F57;
   word-wrap: initial;
 }
 
@@ -36,4 +35,9 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+body{
+  font-family: papyrus;
+  font-size: 18px;
 }
