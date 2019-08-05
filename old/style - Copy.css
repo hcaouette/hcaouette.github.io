@@ -1,0 +1,61 @@
+#headerBar{
+  width: 80%;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Trebuchet MS;
+  /*border: thick double #477F57;*/
+}
+#bodyBlock{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  word-wrap: initial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+body{
+  font-family: papyrus;
+  font-size: 18px;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
