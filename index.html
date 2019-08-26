@@ -12,16 +12,31 @@
   <body>
     <!--top level container object, encompasses the entire page-->
     <div class="container">
-      <!--top row level, menu bar-->
-      <div class="row">
-        <div class="com-1">O</div>
-        <div class="col">Hunter Caouette</div>
-        <div class="col-2">Home</div>
-        <div class="col-2">Projects</div>
-        <div class="col-2">About</div>
-      </div>
+      
+      <nav class="navbar navbar-light" style="background-color: #f99fc9;">
+        <!--logo and name-->
+        <a class="navbar-brand" href="hcaouette.github.io">
+          <img src="/res/HunterProfile.jpg" width="30" height="30" class="d-inline-block align-top" alt="img">
+          Hunter Caouette
+        </a>
+        <!--remainder of nav bar-->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Features</a>
+            <a class="nav-item nav-link" href="#">Pricing</a>
+            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </div>
+        </div>
+      </nav>
 
       <!--second row, main content body-->
+      <div class="row">
+        <div class="col">left pad</div>
+        <div class="col"><h1>we out here, bootstrapping</h1></div>
+        <div class="col">right pad</div>
+      </div>
+
       <div class="row">
         <div class="col">left pad</div>
         <div class="col"><h1>we out here, bootstrapping</h1></div>
