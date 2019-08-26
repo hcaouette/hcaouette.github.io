@@ -6,41 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <!--Bootrap overwrite modifications-->
     <link href="exStyles.css" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>$(document).ready(function () { $("header").load("assets/header.html"); });</script>
+
     <title>Hunter Caouette - Home</title>
   </head>
-  <body style="background-color: #abcae9">
+  <body>
     <!--top level container object, encompasses the entire page-->
-    <div class="container" style="background-color: #abcae9">
+    <div class="container">
 
-      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f99fc9;">
-        <!--logo and name-->
-        <a class="navbar-brand" href="hcaouette.github.io">
-          <img src="/res/HunterProfile.jpg" width="30" height="30" class="d-inline-block align-top" alt="img">
-          Hunter Caouette
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!--remainder of nav bar-->
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="align: right">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#">Home</a>
-            <a class="nav-item nav-link" href="#">Projects</a>
-            <a class="nav-item nav-link" href="#">About</a>
-          </div>
-        </div>
-      </nav>
-
-
+      <header></header>
 
       <!--second row, main content body-->
-      <div class="row">
+      <main role="main" class="row">
         <div class="col">left pad</div>
-        <div class="col"><h1>we out here, bootstrapping</h1></div>
+        <div class="col">
+          <img src="/res/HunterProfile.jpg" class="d-inline-block align-top" alt="img">
+          <h1>Hunter Caouette</h1>
+
+        </div>
         <div class="col">right pad</div>
       </div>
 
